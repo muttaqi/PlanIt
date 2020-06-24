@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/iv_job_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/job"
+        android:tint="@color/colorAccent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_job"
+
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/iv_job_icon"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        style="@style/ItemStyle"
+        />
+
+</android.support.constraint.ConstraintLayout>

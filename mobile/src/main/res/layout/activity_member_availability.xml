@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context="com.planit.mobile.MemberAvailabilityActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background"
+    android:backgroundTint="@color/background">
+
+    <LinearLayout
+    android:id="@+id/ma_ll_content"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ma_tv_timeslot_title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/timeslots_title"
+        style="@style/HeaderStyle"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ma_rv_timeSlots"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/ma_tv_timeslot_null"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="no timeslots found"
+        android:textStyle="italic"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ma_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1144529456090164/3965418832">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

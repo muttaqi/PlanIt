@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/gl_iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:src="@drawable/arrow_right_drop_circle"
+        android:tint="@color/colorAccent"
+
+        android:focusable="false"
+        />
+
+    <ImageView
+        android:id="@+id/gl_iv_job_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="3dp"
+
+        app:layout_constraintLeft_toRightOf="@id/gl_iv_arrow"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:src="@drawable/group"
+        android:tint="@color/colorAccent"
+
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/gl_tv_group_name"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toRightOf="@id/gl_iv_job_icon"
+        app:layout_constraintTop_toTopOf="parent"
+
+        style="@style/ItemStyle"
+
+        android:focusable="false"
+        />
+
+    <ImageView
+        android:id="@+id/gl_iv_edit"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:src="@drawable/pencil_circle"
+        android:tint="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:id="@+id/gli_ll_content"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/gl_tv_group_name"
+
+        android:visibility="gone"
+        >
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/members_rv_title"
+            style="@style/HeaderStyle"
+            />-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gli_rv_members"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/gli_tv_members_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no members found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/event_rv_title"
+            style="@style/HeaderStyle"
+            />-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gli_rv_events"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/gli_tv_events_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no events found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--<TextView
+        android:id="@+id/gl_tv_group_members"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        android:textSize="16sp"
+
+        android:layout_gravity="bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gl_iv_job_icon"
+
+        style="@style/ItemStyle"
+        />-->
+
+</android.support.constraint.ConstraintLayout>

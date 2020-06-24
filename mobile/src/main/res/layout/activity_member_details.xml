@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context="com.planit.mobile.MemberDetailsActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+
+    android:background="@color/background"
+    android:backgroundTint="@color/background">
+
+    <LinearLayout
+
+        android:id="@+id/md_ll_name"
+
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        >
+
+        <ImageView
+            android:id="@+id/md_iv_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="10dp"
+
+            android:src="@drawable/pencil_circle"
+            style="@style/EdittableLabelStyle"
+            />
+
+        <TextView
+            android:id="@+id/md_tv_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:background="@null"
+
+            style="@style/EdittableLabelStyle"/>
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/md_cl_qual_title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_ll_name">
+
+        <TextView
+            android:id="@+id/md_tv_qual_title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:text="@string/qual_rv_title"
+            style="@style/HeaderStyle"/>
+
+        <ImageView
+            android:id="@+id/md_iv_qual"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:paddingRight="5dp"
+            android:paddingTop="4dp"
+
+            android:src="@drawable/help_circle" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/md_rv_quals"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_cl_qual_title"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/md_tv_qual_null"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/md_rv_quals"
+
+        android:text="no qualifications found"
+        android:textStyle="italic"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_tv_pref_title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_tv_qual_null">
+
+        <TextView
+            android:id="@+id/md_tv_pref_title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:text="@string/pref_rv_title"
+            style="@style/HeaderStyle"/>
+
+        <ImageView
+            android:id="@+id/md_iv_pref"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:paddingRight="5dp"
+            android:paddingTop="4dp"
+
+            android:src="@drawable/help_circle" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/md_rv_prefs"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cl_tv_pref_title"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/md_tv_pref_null"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_rv_prefs"
+
+        android:text="no preferences found"
+        android:textStyle="italic"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/md_tv_avail_title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_tv_pref_null"
+
+        android:text="@string/availability_title"
+        style="@style/HeaderStyle"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/md_rv_events"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_tv_avail_title"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/md_tv_event_null"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/md_rv_events"
+
+        android:text="no events found"
+        android:textStyle="italic"
+
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/md_fam"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/colorAccentPressed"
+
+        android:src="@drawable/plus_icon_w"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/md_fab_add_qual"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_label="Add Qualification"
+
+            fab:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+            android:src="@drawable/qualification"
+            android:tint="@color/white"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/md_fab_add_pref"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_label="Add Preference"
+
+            fab:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+            android:src="@drawable/preference"
+            android:tint="@color/white"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/md_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1144529456090164/2680257320">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CalendarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendarView"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+
+    android:background="@color/colorPrimary"
+    android:theme="@style/CalenderViewCustom"
+    android:headerMonthTextAppearance="@style/CalenderHeaderCustom"
+    android:dateTextAppearance="@style/CalenderViewDateCustomText"
+    android:weekDayTextAppearance="@style/CalenderViewWeekCustomText">
+
+</CalendarView>

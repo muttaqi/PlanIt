@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context="com.planit.mobile.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/m_ll_content"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/group_rv_title"
+            style="@style/HeaderStyle"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/m_rv_groups"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:focusable="false"
+            />
+
+        <TextView
+            android:id="@+id/m_tv_groups_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no groups found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/event_rv_title"
+            style="@style/HeaderStyle"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/m_rv_events"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/m_tv_events_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no events found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            /> -->
+
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/m_fam"
+
+        android:clickable="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/m_ad"
+
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        fab:menu_showShadow="false"
+
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/colorAccentPressed"
+
+        fab:menu_icon="@drawable/group"
+        fab:menu_fab_show_animation="@anim/blank"
+        fab:menu_fab_hide_animation="@anim/blank"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/m_fab_add_member"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_label="Add Member"
+
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+
+            android:src="@drawable/member"
+            android:tint="@color/white"
+            android:layout_marginBottom="140dp"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/m_fab_add_event"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+
+            app:fab_label="Add Event"
+
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+
+            android:src="@drawable/event"
+            android:tint="@color/white"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/m_fam_label"
+
+        android:clickable="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/m_ad"
+
+        android:layout_marginBottom="62dp"
+        android:layout_marginRight="24dp"
+
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/colorAccentPressed"
+
+        fab:menu_icon="@drawable/group"
+        fab:menu_fab_show_animation="@anim/blank"
+        fab:menu_fab_hide_animation="@anim/blank"
+        fab:menu_fab_label="Add Group"
+        fab:menu_labels_paddingRight="60dp"
+
+        fab:menu_showShadow="false"
+        />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/m_fab_add_group"
+
+        android:clickable="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/m_ad"
+
+        android:layout_marginBottom="54dp"
+        android:layout_marginRight="19dp"
+
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccentPressed"
+
+        android:src="@drawable/group"
+        android:tint="@color/white"
+        />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/m_fab_delete"
+
+        android:clickable="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/m_ad"
+
+        android:layout_marginBottom="54dp"
+        android:layout_marginLeft="19dp"
+
+        app:fab_colorNormal="@color/red"
+        app:fab_colorPressed="@color/lightRed"
+
+        android:src="@drawable/delete_w"
+        android:tint="@color/white"
+        />
+
+    <!--<com.github.clans.fab.FloatingActionButton
+        android:id="@+id/m_fab_add_group"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/m_ad"
+
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccentPressed"
+
+        android:src="@drawable/group"
+        android:tint="@color/white"/> -->
+
+    <com.google.android.gms.ads.AdView
+
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/m_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1144529456090164/3412829030">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_mqual_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/qualification"
+        android:tint="@color/colorAccent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_mqual"
+
+        android:text="@string/check"
+        app:layout_constraintLeft_toRightOf="@+id/iv_mqual_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        style="@style/ItemStyle"
+        />
+
+    <ImageButton
+        android:id="@+id/ib_item_mqual"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:src="@drawable/delete_icon"
+        />
+
+</android.support.constraint.ConstraintLayout>

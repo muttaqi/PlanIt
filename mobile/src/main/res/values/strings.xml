@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">PlanIt</string>
+
+
+    // titles
+    <string name="group_rv_title">Groups</string>
+    <string name="event_rv_title">Events</string>
+
+    <string name="qual_rv_title">Qualifications</string>
+    <string name="pref_rv_title">Preferences</string>
+
+    <string name="choose_group_rv_title">Groups</string>
+
+    <string name="group_members_rv_title">Members</string>
+
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="back">BACK</string>
+    <string name="export">EXPORT TO SHEETS</string>
+    <string name="addtocalendar">ADD TO CALENDAR</string>
+    <string name="updatecalendar">UPDATE CALENDAR</string>
+
+    <string name="createSchedule">CREATE SCHEDULE</string>
+
+    <string name="name_hint">Name</string>
+
+    <string name="eventname_title">Event Name</string>
+    <string name="eventdate_title">Event Date</string>
+    <string name="groupname_title">Group Name</string>
+    <string name="jobname_title">Job Name</string>
+    <string name="timeslots_title">Time Slots</string>
+    <string name="jobs_title">Jobs</string>
+
+    <string name="check">Check</string>
+
+    //Used for Adapters
+
+    <item name="name" type="id"/>
+    <item name="memberid" type="id"/>
+
+    <item name="groupid" type="id"/>
+    <item name="eventid" type="id"/>
+
+    <item name="timeslotstart" type="id"/>
+    <item name="timeslotend" type="id"/>
+    <item name="timeslotid" type="id"/>
+
+    <item name="jobID" type="id"/>
+    <item name="job" type="id"/>
+
+    <string name="availability_title">Availability</string>
+
+</resources>

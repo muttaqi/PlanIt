@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_4cfa1c9023de5f4cbb7a5fb891b7c4f3d3035ad0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\726951ee72c7683fa642f5cb617954fd0713d6e2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b84a791dc9bcda50cb84e4498e0502b3e4dfd47d">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_7802c7a57883e3f37acccb8aebc4547b13fccf0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_400d0e60f394ef612a33b2db26fc1d3703363ee9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\6376bb6ac508425f0bcde4f0f66da364bf31e281\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_3a1405a7ffedf6e94ee58847dfd44bd511c48e05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\cb6069020575ede7d5b4e932533aaf0bf30d2cd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_ec130ada701d1877c2bd71e153f6e8f0694cfbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\496ce66088baad1c6cb4435acf46aa1ff72426e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_48e06a87939f03339744527b320f63c920baef63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\df6ca21182216e663f1732adb752fa875c9e0f6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_5b733da35bc6df29d0dae5313b374fa26cfe5995.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\aa312822218d2de9cc48dbb29a83c59735056281\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_ff1e381aa63d1f4dc3b9a426d12483b4e55975a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\11f2e03d26185968694006cedb51baab80787890\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_f843625c478b652e972bd2cbd41ad3c12712fc10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\10eb482fdd422e5ef7206f17e24beaa90f68b7ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_9223fdb543d72925a5003e6790e3d91b04a8cd89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\632ec75bf6084428edd3114ac889c2d03c4af0d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_2bcae89ecbc171dc337637cc8ff114c28f66ff9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\9047eca737d9e12d4eb6402231d25613ed1f6a2e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_893c1771dea4a0aaf13c21b19e6fc99a227d0039.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\d08b9db82225ad0f31eeb492b479a7cf3a483b41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_09b48573f441cd18eb1d51c7ec9d981190b58ef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\4c7b9e2d07096938e68f75fc32dd27d04a118a0b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_6ba48866efc8357203613ded90b97b4d894e0558.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\dc7a69fa4645c1be1493a3aadda70ce3d57bb1a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_c8e80e962aefd210f0b2d7d5a781b1416018d55b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\657fb2df39a36e7ea4385011df907580bbbe4ace\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_a1e9e05b19e22a1940d2c5d9a75a0b757db4d36a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\4c488ad1af9ee47ca0a10d5e1fcc973a2c33f280\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_e3828cc360c280ebaaa4c2c9d3236fa1fe63c308.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\69220df67ee6c4cef37dffddff4e86a5ecff3737\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_5c2dfc623d06e084700b1369d7dbab7eb0124bd1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_71f9baa6a5c27fe046866b68c474ec3609fb0cfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\1ed37674776f96b3b893a83407eb1bece2d7e5cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_ba16fa815b5e11ffac13cd572660f0b1c21d6761.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5dcc886c538d01353b48b56733adcf79f6416b5c">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3742b88ab5bf91aa2952e05ba7c26584723c2fac\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Home-PC_2\.android\build-cache\798566e5a9db21b061324613f39cafaeb952f87c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Home-PC_2\Downloads\PlanIt\PlanIt0.03\mobile\build\intermediates\pre-dexed\debug\classes_25cdf06f7da2e05bdab7bd8cb4a103ca65118e96.jar" />
+    </item>
+
+</items>

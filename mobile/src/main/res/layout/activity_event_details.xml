@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context="com.planit.mobile.EventDetailsActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+
+    android:background="@color/background"
+    android:backgroundTint="@color/background">
+
+    <LinearLayout
+        android:id="@+id/ed_ll_content"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:id="@+id/ed_ll_name"
+
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                >
+
+                <ImageView
+                    android:id="@+id/ed_iv_name"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingTop="10dp"
+
+                    android:src="@drawable/pencil_circle"
+                    style="@style/EdittableLabelStyle"
+                    />
+
+                <TextView
+                    android:id="@+id/ed_tv_event_name"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/white"
+
+                    android:background="@null"
+
+                    style="@style/EdittableLabelStyle"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ed_iv_event_date_title"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ed_ll_name"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+
+                android:src="@drawable/event"
+                android:tint="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/ed_tv_event_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ed_ll_name"
+                android:layout_toEndOf="@id/ed_iv_event_date_title"
+                android:layout_toRightOf="@id/ed_iv_event_date_title"
+                android:layout_alignBottom="@id/ed_iv_event_date_title"
+                android:layout_alignParentRight="true"
+                android:paddingTop="4dp"
+
+                style="@style/ItemStyle"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ed_tv_timeslot_title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/timeslots_title"
+            style="@style/HeaderStyle"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ed_rv_timeSlots"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/ed_tv_timeslot_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no timeslots found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/ed_tv_job_title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/jobs_title"
+            style="@style/HeaderStyle"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ed_rv_jobs"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/ed_tv_job_null"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="no jobs found"
+            android:textStyle="italic"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/ed_bt_create_schedule"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/createSchedule"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/ed_fam"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/colorAccentPressed"
+
+        android:src="@drawable/plus_icon_w"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/ed_fab_add_timeslot"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_label="Add Timeslot"
+
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+            android:src="@drawable/timeslot"
+            android:tint="@color/white"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+             android:id="@+id/ed_fab_add_job"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fab_label="Add Job"
+
+            fab:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccentPressed"
+            android:src="@drawable/job"
+            android:tint="@color/white"
+             />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ed_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1144529456090164/8401581196">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
