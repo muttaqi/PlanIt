@@ -243,7 +243,7 @@ class EventScheduleActivity : AppCompatActivity(), EasyPermissions.PermissionCal
 
         var l = 0
 
-        //this shit too complicated to comment; essentially event handles members, members have unavailabilities, unavailabilities hold event id and timeslot id
+        //event handles members, members have unavailabilities, unavailabilities hold event id and timeslot id
 
         do {
             val m = Member(memberCursor.getString(memberCursor.getColumnIndex(MemberContract.MemberEntry.COLUMN_NAME)))
